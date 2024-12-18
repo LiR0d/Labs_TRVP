@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Записная книжка</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calendar-container">
+    <div class="header">
+      <button id="prev-month">&lt;</button>
+      <span id="current-month">Месяц Год</span>
+      <button id="next-month">&gt;</button>
+    </div>
+    <div id="calendar"></div>
+  </div>
+  <div id="tasks-popup" class="hidden">
+    <h3 id="popup-date">Дата</h3>
+    <ul id="task-list"></ul>
+    <input type="text" id="task-input" placeholder="Добавить дело">
+    <button id="add-task">Добавить</button>
+    <button id="close-popup">Закрыть</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
