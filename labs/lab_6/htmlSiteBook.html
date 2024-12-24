@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Крылья Тота</title>
+    <link rel="stylesheet" href="BookSiteStyle.css">
+</head>
+<body>
+    <!-- Верхняя панель навигации -->
+    <header>
+        <nav class="top-nav">
+            <a href="#" onclick="showWarning()">Россия, Москва</a>
+            <a href="#" onclick="showWarning()">Магазины</a>
+            <a href="#" onclick="showWarning()">Доставка и оплата</a>
+        </nav>
+        <h1>Крылья Тота</h1>
+        <div class="search-bar">
+          <input type="text" placeholder="Найти...">
+          <button onclick="showWarning()" class="search-button">
+              Поиск
+          </button>
+      </div>
+      
+      <div class="icons-container">
+          <div class="icons-nav">
+              <button onclick="showWarning()">
+                  <img src="box.png" alt="Каталог" class="small-image" />
+                  <p>Каталог</p>
+              </button>
+          </div>
+          <div class="icons-nav">
+              <button onclick="showWarning()">
+                  <img src="bookmark.png" alt="Избранное" class="small-image" />
+                  <p>Избранное</p>
+              </button>
+          </div>
+          <div class="icons-nav">
+              <button onclick="showWarning()">
+                  <img src="basket.png" alt="Заказы" class="small-image" />
+                  <p>Заказы</p>
+              </button>
+          </div>
+          <div class="icons-nav">
+              <button onclick="showWarning()">
+                  <img src="person.png" alt="Профиль" class="small-image" />
+                  <p>Профиль</p>
+              </button>
+          </div>
+      </div>
+      
+      
+      
+    </header>
+
+    <!-- Основной контент -->
+    <main>
+        <div class="book-grid">
+            <!-- Пример карточки книги -->
+            <div class="book-card">
+                <div class="book-cover"></div>
+                <p>Цена ₽</p>
+                <p>Книга</p>
+                <p>Автор</p>
+                <p class="rating"></p>
+                <button class="buy-button" onclick="showBuyAlert()">Купить</button>
+            </div>
+            <div class="book-card">
+                <div class="book-cover"></div>
+                <p>Цена ₽</p>
+                <p>Книга</p>
+                <p>Автор</p>
+                <p class="rating"></p>
+                <button class="buy-button" onclick="showBuyAlert()">Купить</button>
+            </div>
+            <div class="book-card">
+              <div class="book-cover"></div>
+              <p>Цена ₽</p>
+              <p>Книга</p>
+              <p>Автор</p>
+              <p class="rating"></p>
+              <button class="buy-button" onclick="showBuyAlert()">Купить</button>
+            </div>
+            <div class="book-card">
+              <div class="book-cover"></div>
+              <p>Цена ₽</p>
+              <p>Книга</p>
+              <p>Автор</p>
+              <p class="rating"></p>
+              <button class="buy-button" onclick="showBuyAlert()">Купить</button>
+            </div>
+            <div class="book-card">
+              <div class="book-cover"></div>
+              <p>Цена ₽</p>
+              <p>Книга</p>
+              <p>Автор</p>
+              <p class="rating"></p>
+              <button class="buy-button" onclick="showBuyAlert()">Купить</button>
+            </div>
+            <div class="book-card">
+              <div class="book-cover"></div>
+              <p>Цена ₽</p>
+              <p>Книга</p>
+              <p>Автор</p>
+              <p class="rating"></p>
+              <button class="buy-button" onclick="showBuyAlert()">Купить</button>
+            </div>
+            <div class="book-card">
+              <div class="book-cover"></div>
+              <p>Цена ₽</p>
+              <p>Книга</p>
+              <p>Автор</p>
+              <p class="rating"></p>
+              <button class="buy-button" onclick="showBuyAlert()">Купить</button>
+            </div>
+            <div class="book-card">
+              <div class="book-cover"></div>
+              <p>Цена ₽</p>
+              <p>Книга</p>
+              <p>Автор</p>
+              <p class="rating"></p>
+              <button class="buy-button" onclick="showBuyAlert()">Купить</button>
+            </div>
+            <div class="book-card">
+              <div class="book-cover"></div>
+              <p>Цена ₽</p>
+              <p>Книга</p>
+              <p>Автор</p>
+              <p class="rating"></p>
+              <button class="buy-button" onclick="showBuyAlert()">Купить</button>
+            </div>
+            <div class="book-card">
+              <div class="book-cover"></div>
+              <p>Цена ₽</p>
+              <p>Книга</p>
+              <p>Автор</p>
+              <p class="rating"></p>
+              <button class="buy-button" onclick="showBuyAlert()">Купить</button>
+            </div>
+            <div class="book-card">
+              <div class="book-cover"></div>
+              <p>Цена ₽</p>
+              <p>Книга</p>
+              <p>Автор</p>
+              <p class="rating"></p>
+              <button class="buy-button" onclick="showBuyAlert()">Купить</button>
+            </div>
+            <div class="book-card">
+              <div class="book-cover"></div>
+              <p>Цена ₽</p>
+              <p>Книга</p>
+              <p>Автор</p>
+              <p class="rating"></p>
+              <button class="buy-button" onclick="showBuyAlert()">Купить</button>
+            </div>
+            <div class="book-card">
+              <div class="book-cover"></div>
+              <p>Цена ₽</p>
+              <p>Книга</p>
+              <p>Автор</p>
+              <p class="rating"></p>
+              <button class="buy-button" onclick="showBuyAlert()">Купить</button>
+            </div>
+            <div class="book-card">
+              <div class="book-cover"></div>
+              <p>Цена ₽</p>
+              <p>Книга</p>
+              <p>Автор</p>
+              <p class="rating"></p>
+              <button class="buy-button" onclick="showBuyAlert()">Купить</button>
+            </div>
+            <div class="book-card">
+              <div class="book-cover"></div>
+              <p>Цена ₽</p>
+              <p>Книга</p>
+              <p>Автор</p>
+              <p class="rating"></p>
+              <button class="buy-button" onclick="showBuyAlert()">Купить</button>
+            </div>
+            <!-- Повторите book-card столько раз, сколько нужно -->
+        </div>
+    </main>
+
+    <!-- Нижняя панель навигации -->
+    <footer>
+        <a href="#" onclick="showWarning()">©Крылья Тота</a>
+        <a href="#" onclick="showWarning()">Политика Конфиденциальности</a>
+        <a href="#" onclick="showWarning()">Контактные данные</a>
+        <a href="#" onclick="showWarning()">О нас</a>
+    </footer>
+
+    <script src="JSWingsOfToath.js"></script>
+</body>
+</html>
